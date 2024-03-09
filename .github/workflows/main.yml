@@ -238,7 +238,7 @@ jobs:
           name: build
           path: build
 
-      - name: "UI Tests - Edge - Mobile"
+      - name: "UI Tests - Edge - Mobile test"
         uses: cypress-io/github-action@v4
         with:
           config: "viewportWidth=375,viewportHeight=667"
